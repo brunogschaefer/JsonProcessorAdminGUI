@@ -1,14 +1,14 @@
+import { CssBaseline } from '@mui/material';
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Routes from './custom-routes';
 
 function App() {
   return (
-    <div>
-      <p>
-        project created
-      </p>
-    </div>
+    <>
+    <CssBaseline />
+      <Routes />
+    </>
   )
 }
 
